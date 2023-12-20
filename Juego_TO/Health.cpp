@@ -6,16 +6,17 @@ Health::Health(QGraphicsItem *parent): QGraphicsTextItem(parent){
     health = 3;
 
     // Dibuja el textp
-    setPlainText(QString("Health: ") + QString::number(health)); // Salud: 3
+    setPlainText(QString("Salud: ") + QString::number(health)); // Salud: 3
     setDefaultTextColor(Qt::red);
     setFont(QFont("times",16));
 }
 
-void Health::decrease(){
-    health--;
-    setPlainText(QString("Health: ") + QString::number(health)); // Salud: 2
+void Health::decrease(bool damageEnabled){
+    if (!damageEnabled) {
+        health--;
+        setPlainText(QString("Salud: ") + QString::number(health)); // Salud: 2
+    }
 }
-
 int Health::getHealth(){
     return health;
 }

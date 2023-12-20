@@ -64,7 +64,7 @@
      <rect>
       <x>-290</x>
       <y>30</y>
-      <width>721</width>
+      <width>501</width>
       <height>491</height>
      </rect>
     </property>
@@ -107,6 +107,9 @@
       <italic>true</italic>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red;</string>
     </property>
     <property name="text">
      <string>METEOROS POO</string>

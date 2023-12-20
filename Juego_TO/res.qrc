@@ -15,5 +15,9 @@
         <file>planeta_menu.png</file>
         <file>planeta_rojo.png</file>
         <file>space.png</file>
+        <file>estrellaA.png</file>
+        <file>estrellaB.png</file>
+        <file>estrellaC.png</file>
+        <file>estrellaD.png</file>
     </qresource>
 </RCC>

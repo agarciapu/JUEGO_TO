@@ -11,6 +11,13 @@ public:
     Enemy(QGraphicsItem * parent=0);
 public slots:
     void move();
+private:
+    bool alternativaA = false;
+    bool alternativaB= false;
+    bool alternativaC= false;
+    bool alternativaD= false;
+    bool daño = false;
+
 };
 
 #endif // ENEMY_H
