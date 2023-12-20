@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>agujero_menu.png</file>
+        <file>asteroid.png</file>
+        <file>asteroid2.png</file>
+        <file>asteroide_menu.png</file>
+        <file>bala.png</file>
+        <file>bala2.png</file>
+        <file>bala3.png</file>
+        <file>espacio_menu.png</file>
+        <file>nave.png</file>
+        <file>nave_menu.png</file>
+        <file>nave2.png</file>
+        <file>planeta.png</file>
+        <file>planeta_menu.png</file>
+        <file>planeta_rojo.png</file>
+        <file>space.png</file>
+    </qresource>
+</RCC>
